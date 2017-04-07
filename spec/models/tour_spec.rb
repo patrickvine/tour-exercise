@@ -9,10 +9,13 @@
 #  updated_at  :datetime         not null
 #
 
-require 'test_helper'
+#require 'spec_helper'
+#require 'activerecord_helper'
+#require_relative '../../app/models/tour'
+require 'rails_helper'
 
-class TourTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe Tour do
+  it '' do
+    expect(1).to eq 0
+  end
 end
