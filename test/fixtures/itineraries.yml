@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: itineraries
+#
+#  id          :integer          not null, primary key
+#  description :text
+#  tour_id     :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  tour_id: 1
+
+two:
+  description: MyText
+  tour_id: 1
